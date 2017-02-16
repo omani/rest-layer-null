@@ -10,8 +10,8 @@ import (
 // Handler is an example handler storing data nowhere.
 type Handler struct{}
 
-// NewNullHandler creates a new NullHandler.
-func NewNullHandler() *Handler {
+// NewHandler creates a new NullHandler.
+func NewHandler() *Handler {
 	return &Handler{}
 }
 
